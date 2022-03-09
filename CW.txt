@@ -1,0 +1,21 @@
+public class Main
+{
+	public static void main(String[] args) {
+		int grade = 9001; // Over 9000
+		
+		// If statement
+		if (grade > 100) {
+		    System.out.println("Good job Einstein.");
+		} else if (grade >= 90) {
+		    System.out.println("AAAAAAAAAAAAAAAAAAAAAAA");
+		} else if (grade >= 80) {
+		    System.out.println("BBBBBBBBBBBBBBBBBBBBBBB");
+		} else if (grade >= 70) {
+		    System.out.println("CCCCCCCCCCCCCCCCCCCCCCC");
+		} else if (grade >= 60) {
+		    System.out.println("DDDDDDDDDDDDDDDDDDDDDDD");
+		} else {
+		    System.out.println("Don't show your parents");
+		}
+	}
+}
